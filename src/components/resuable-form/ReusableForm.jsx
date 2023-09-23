@@ -11,6 +11,7 @@ const ReusableForm = ({formtitle, submitBtnText = `Submit`, handleSubmit, childr
     }
     return (
         <div>
+            <h2>{formtitle}</h2>
             {children}
             <form onSubmit={handleSubmits}>
                 <input type="text" name="name" />
